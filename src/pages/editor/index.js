@@ -108,12 +108,7 @@ const Main = () => {
         {/* stats */}
         <div className={classes.secondItem}>
           {["jibber", "jabber", "hallugah", "wazoon", "bopple"].map((el, i) => (
-            <SliderStats
-              key={el}
-              label={`Stat ${i + 1}`}
-              name={el}
-              dispatch={dispatch}
-            />
+            <SliderStats key={el} label={el} name={el} dispatch={dispatch} />
           ))}
         </div>
 
