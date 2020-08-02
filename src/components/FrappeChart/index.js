@@ -24,7 +24,8 @@ const FrappeChart = ({ data }) => {
         yAxisMode: "tick",
         xIsSeries: 1,
       },
-      colors: ["#7cd6fd", "#743ee2"],
+      colors: ["#7fd858", "#743ee2"],
+      // colors: ["#7cd6fd", "#743ee2"],
     });
     // eslint-disable-next-line
   }, []);
