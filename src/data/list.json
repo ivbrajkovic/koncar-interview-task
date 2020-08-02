@@ -1,0 +1,54 @@
+[
+  {
+    "id": 15,
+    "title": "Tom Buyeck",
+    "desc": "Small batch next level 3 wolf moon mustache listicle cronut slow-carb thundercats tote bag. Tattooed keffiyeh actually, listicle fingerstache tilde edison bulb. Drinking vinegar pok pok fashion axe blue bottle schlitz, cliche single-origin coffee everyday carry gastropub pickled ennui. Af leggings raclette glossier twee chillwave DIY church-key tumeric waistcoat four loko. Man braid stumptown literally affogato edison bulb normcore meditation. Artisan echo park hella, iceland enamel pin glossier ugh sustainable irony.",
+    "team": 2,
+    "stats": {
+      "jibber": 8,
+      "jabber": 9,
+      "hallugah": 10,
+      "wazoon": 4,
+      "bopple": 10
+    }
+  },
+  {
+    "id": 5,
+    "title": "Mark Spamill",
+    "desc": "Gluten-free selvage drinking vinegar narwhal vinyl seitan. Woke activated charcoal brunch 90's, gochujang portland ennui pug selvage butcher sriracha. Fashion axe heirloom four loko, cray austin hammock ethical. Meditation normcore put a bird on it swag lumbersexual selfies mustache DIY raclette cronut.",
+    "team": 2,
+    "stats": {
+      "jibber": 9,
+      "jabber": 9,
+      "hallugah": 9,
+      "wazoon": 9,
+      "bopple": 10
+    }
+  },
+  {
+    "id": 1,
+    "title": "Hellenoh Bonham Porter",
+    "desc": "Adaptogen listicle umami pabst copper mug godard. Shaman taxidermy before they sold out, try-hard af chicharrones glossier kale chips DIY synth. Hell of tilde hexagon truffaut. Health goth polaroid chillwave vice intelligentsia. Pok pok jianbing ethical subway tile.",
+    "team": 1,
+    "stats": {
+      "jibber": 6,
+      "jabber": 10,
+      "hallugah": 10,
+      "wazoon": 10,
+      "bopple": 7
+    }
+  },
+  {
+    "id": 777,
+    "title": "Daniel List",
+    "desc": "Sustainable succulents vaporware blue bottle. Aesthetic tilde deep v fam ugh fanny pack. DIY retro subway tile, vaporware pok pok tousled banh mi mustache. Hella biodiesel palo santo, lo-fi listicle cred organic sustainable distillery sriracha.",
+    "team": 3,
+    "stats": {
+      "jibber": 2,
+      "jabber": 5,
+      "hallugah": 2,
+      "wazoon": 4,
+      "bopple": 3
+    }
+  }
+]
