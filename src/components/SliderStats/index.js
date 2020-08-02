@@ -3,7 +3,6 @@
 import React from "react";
 
 // Material UI
-import Box from "@material-ui/core/Box";
 import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
 
@@ -34,7 +33,6 @@ const SliderStats = ({ label, name, dispatch }) => {
       </Typography>
 
       {/* slider */}
-      {/* <Box flexGrow={1}> */}
       <Slider
         defaultValue={0}
         aria-labelledby="stats-slider"
@@ -46,7 +44,6 @@ const SliderStats = ({ label, name, dispatch }) => {
         onChange={handleSliderChange}
         style={{ maxWidth: 250 }}
       />
-      {/* </Box> */}
     </div>
   );
 };
