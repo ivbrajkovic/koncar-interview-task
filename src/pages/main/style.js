@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
 
     display: "grid",
     gridGap: theme.spacing(3),
-    margin: theme.spacing(3, 0),
+    margin: theme.spacing(3, 0, 6, 0),
 
     gridTemplateColumns: "minmax(200px, 1fr)",
     gridTemplateAreas: `

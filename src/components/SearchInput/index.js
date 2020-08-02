@@ -22,7 +22,7 @@ const SearchInput = ({ elevation, value, onChange }) => {
         variant="outlined"
         size="small"
         fullWidth
-        autoFocus
+        // autoFocus
         className={classes.searchInput}
         value={value}
         onChange={onChange}
