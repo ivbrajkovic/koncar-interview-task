@@ -30,7 +30,6 @@ const Main = () => {
   // Local state
   const [chars, setChars] = useState("");
   const [chaker, setChaker] = useState(data[0]);
-  const [chartData, setChartData] = useState(Object.values(chaker.stats));
 
   // Handlers
   const handleInputChange = (e) => setChars(e.target.value);
