@@ -39,9 +39,13 @@ export default makeStyles((theme) => ({
 
     // padding: theme.spacing(1, 4, 0, 4),
     padding: theme.spacing(0, 1),
+    // justifyContent: "center",
+    // textAlign: "center",
 
     [theme.breakpoints.up("sm")]: {
       padding: theme.spacing(0, 4),
+      // justifyContent: "start",
+      // textAlign: "start",
     },
   },
 

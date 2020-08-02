@@ -107,7 +107,7 @@ const Main = () => {
 
         {/* stats */}
         <div className={classes.secondItem}>
-          {["jibber", "jabber", "hallugah", "wazoon", "bopple"].map((el, i) => (
+          {["jibber", "jabber", "hallugah", "wazoon", "bopple"].map((el) => (
             <SliderStats key={el} label={el} name={el} dispatch={dispatch} />
           ))}
         </div>

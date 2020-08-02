@@ -7,7 +7,12 @@ import Box from "@material-ui/core/Box";
 import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
 
+// Styles
+import useStyles from "./style";
+
 const SliderStats = ({ label, name, dispatch }) => {
+  const classes = useStyles();
+
   const handleSliderChange = (_, value) => {
     dispatch({
       type: "SET_STATS",
@@ -16,7 +21,7 @@ const SliderStats = ({ label, name, dispatch }) => {
   };
 
   return (
-    <Box display="flex" alignItems="center">
+    <div className={classes.root}>
       {/* label */}
       <Typography
         variant="body1"
@@ -29,20 +34,20 @@ const SliderStats = ({ label, name, dispatch }) => {
       </Typography>
 
       {/* slider */}
-      <Box width="100%">
-        <Slider
-          defaultValue={0}
-          aria-labelledby="stats-slider"
-          valueLabelDisplay="auto"
-          step={1}
-          // marks
-          min={0}
-          max={10}
-          onChange={handleSliderChange}
-          style={{ maxWidth: 250 }}
-        />
-      </Box>
-    </Box>
+      {/* <Box flexGrow={1}> */}
+      <Slider
+        defaultValue={0}
+        aria-labelledby="stats-slider"
+        valueLabelDisplay="auto"
+        step={1}
+        // marks
+        min={0}
+        max={10}
+        onChange={handleSliderChange}
+        style={{ maxWidth: 250 }}
+      />
+      {/* </Box> */}
+    </div>
   );
 };
 
