@@ -8,7 +8,7 @@ import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
 
 const SliderStats = ({ label, name, dispatch }) => {
-  const handleSliderChange = (event, value) => {
+  const handleSliderChange = (_, value) => {
     dispatch({
       type: "SET_STATS",
       payload: { name, value },
@@ -16,26 +16,31 @@ const SliderStats = ({ label, name, dispatch }) => {
   };
 
   return (
-    <Box display="flex">
+    <Box display="flex" alignItems="center">
       {/* label */}
-      <Box mr={3} minWidth={80}>
-        <Typography variant="body1">{label}</Typography>
-      </Box>
+      <Typography
+        variant="body1"
+        style={{
+          minWidth: 80,
+          marginRight: 24,
+        }}
+      >
+        {label}
+      </Typography>
 
       {/* slider */}
       <Box width="100%">
-        <Box maxWidth={250}>
-          <Slider
-            defaultValue={0}
-            aria-labelledby="stats-slider"
-            valueLabelDisplay="auto"
-            step={1}
-            // marks
-            min={0}
-            max={10}
-            onChange={handleSliderChange}
-          />
-        </Box>
+        <Slider
+          defaultValue={0}
+          aria-labelledby="stats-slider"
+          valueLabelDisplay="auto"
+          step={1}
+          // marks
+          min={0}
+          max={10}
+          onChange={handleSliderChange}
+          style={{ maxWidth: 250 }}
+        />
       </Box>
     </Box>
   );
