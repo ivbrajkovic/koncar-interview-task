@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles((theme) => ({
   root: {
     display: "grid",
-    margin: theme.spacing(3, 0, 6, 0),
+    marginTop: theme.spacing(3),
     gridTemplateColumns: "minmax(200px, 1fr)",
 
     gridRowGap: theme.spacing(3),
@@ -33,14 +33,16 @@ export default makeStyles((theme) => ({
 
   secondItem: {
     display: "grid",
-    gridGap: theme.spacing(2),
-    alignItems: "center",
-    alignContent: "start",
-    padding: theme.spacing(1, 4, 0, 4),
+    gridGap: theme.spacing(1),
+    // alignItems: "center",
+    // alignContent: "start",
 
-    [theme.breakpoints.up("sm")]: {
-      gridGap: theme.spacing(4),
-    },
+    // padding: theme.spacing(1, 4, 0, 4),
+    padding: theme.spacing(0, 4),
+
+    // [theme.breakpoints.up("sm")]: {
+    //   gridGap: theme.spacing(4),
+    // },
   },
 
   thirdItem: {

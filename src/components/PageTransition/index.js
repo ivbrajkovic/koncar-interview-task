@@ -6,6 +6,9 @@ import { CSSTransition } from "react-transition-group";
 // Styles
 import useStyles from "./style";
 
+// Components
+import Footer from "../../components/Footer";
+
 // Transition timeouts
 const timeout = {
   appear: 0,
@@ -28,7 +31,10 @@ const PageTransition = ({ match, children }) => {
         exitActive: classes.pageExitActive,
       }}
     >
-      <div className={classes.page}>{children}</div>
+      <div className={classes.page}>
+        {children}
+        <Footer />
+      </div>
     </CSSTransition>
   );
 };

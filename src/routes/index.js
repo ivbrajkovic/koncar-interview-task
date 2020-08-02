@@ -20,6 +20,7 @@ const Routes = () =>
         <PageTransition match={match}>
           <Container>
             <Component />
+            {/* <Footer /> */}
           </Container>
         </PageTransition>
       )}
