@@ -34,10 +34,8 @@ const Main = () => {
 
   // Handlers
   const handleInputChange = (e) => setChars(e.target.value);
-  const handleListItemClick = (id) => {
+  const handleListItemClick = (id) =>
     setChaker(data.find((el) => el.id === id));
-    setChartData(Object.values(chaker.stats));
-  };
 
   // Memoized result
   const filteredData = useMemo(() => filterData(data, chars), [data, chars]);
@@ -74,7 +72,7 @@ const Main = () => {
         <FrappeChart
           data={{
             labels: chartLabels,
-            datasets: [{ values: chartData }],
+            datasets: [{ values: Object.values(chaker.stats) }],
           }}
         />
       </div>

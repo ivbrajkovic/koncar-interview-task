@@ -4,6 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   root: {
+    // minHeight: 550,
+
     display: "grid",
     gridGap: theme.spacing(3),
     marginTop: theme.spacing(3),
@@ -47,6 +49,7 @@ export default makeStyles((theme) => ({
   },
 
   secondItem: {
+    minHeight: 210,
     gridArea: "second",
   },
 
