@@ -36,7 +36,7 @@ export default makeStyles((theme) => ({
     gridGap: theme.spacing(4),
     alignItems: "center",
     alignContent: "start",
-    padding: theme.spacing(1, 4),
+    padding: theme.spacing(1, 4, 0, 4),
   },
 
   thirdItem: {

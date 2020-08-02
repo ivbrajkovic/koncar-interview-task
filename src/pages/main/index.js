@@ -2,9 +2,6 @@
 
 import React, { useState, useMemo } from "react";
 
-// Material UI
-import Box from "@material-ui/core/Box";
-
 // Frappe chart
 import FrappeChart from "../../components/FrappeChart";
 
@@ -65,13 +62,11 @@ const Main = () => {
 
       {/* second item */}
       <div className={classes.secondItem}>
-        <Box mb={3}>
-          <ChakerCard
-            team={chaker.team}
-            title={chaker.title}
-            desc={chaker.desc}
-          />
-        </Box>
+        <ChakerCard
+          team={chaker.team}
+          title={chaker.title}
+          desc={chaker.desc}
+        />
       </div>
 
       {/* third item */}
