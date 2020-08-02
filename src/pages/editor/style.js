@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export default makeStyles((theme) => ({
   root: {
     display: "grid",
-    marginTop: theme.spacing(3),
+    margin: theme.spacing(3, 0),
     gridTemplateColumns: "minmax(200px, 1fr)",
 
     gridRowGap: theme.spacing(3),
