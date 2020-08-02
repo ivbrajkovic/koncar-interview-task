@@ -38,11 +38,11 @@ export default makeStyles((theme) => ({
     // alignContent: "start",
 
     // padding: theme.spacing(1, 4, 0, 4),
-    padding: theme.spacing(0, 4),
+    padding: theme.spacing(0, 1),
 
-    // [theme.breakpoints.up("sm")]: {
-    //   gridGap: theme.spacing(4),
-    // },
+    [theme.breakpoints.up("sm")]: {
+      padding: theme.spacing(0, 4),
+    },
   },
 
   thirdItem: {
