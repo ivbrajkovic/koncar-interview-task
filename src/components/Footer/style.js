@@ -5,7 +5,8 @@ import grey from "@material-ui/core/colors/grey";
 
 export default makeStyles((theme) => ({
   root: {
-    margin: theme.spacing(6, 0, 3, 0),
+    marginTop: theme.spacing(6),
+    paddingBottom: theme.spacing(3),
     textAlign: "center",
     color: grey[500],
 
