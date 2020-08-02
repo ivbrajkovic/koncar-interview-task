@@ -33,10 +33,14 @@ export default makeStyles((theme) => ({
 
   secondItem: {
     display: "grid",
-    gridGap: theme.spacing(4),
+    gridGap: theme.spacing(2),
     alignItems: "center",
     alignContent: "start",
     padding: theme.spacing(1, 4, 0, 4),
+
+    [theme.breakpoints.up("sm")]: {
+      gridGap: theme.spacing(4),
+    },
   },
 
   thirdItem: {
